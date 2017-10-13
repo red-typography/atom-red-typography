@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Typography",
+        "command": "red-typography:process"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Red Typography",
+          "submenu": [
+            {
+              "label": "Typography",
+              "command": "red-typography:process"
+            },
+            {
+              "label": "Settings",
+              "command": "red-typography:settings"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
