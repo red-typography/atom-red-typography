@@ -6,7 +6,7 @@
   "keywords": [
     "typography",
     "typograf",
-    "enities"
+    "enities",
     "quote",
     "mdash",
     "ndash",
@@ -16,7 +16,10 @@
     "кавычки"
   ],
   "activationCommands": {
-    "atom-workspace": ["red-typography:process", "red-typography:settings"]
+    "atom-workspace": [
+      "red-typography:process",
+      "red-typography:settings"
+    ]
   },
   "repository": "https://github.com/red-typography/atom-red-typography",
   "license": "MIT",
@@ -26,35 +29,122 @@
       "default": "en-US",
       "order": 10,
       "enum": [
-        { "value": "be", "description": "Belarusian" },
-        { "value": "bg", "description": "Bulgarian" },
-        { "value": "ca", "description": "Catalan" },
-        { "value": "cs", "description": "Czech" },
-        { "value": "da", "description": "Danish" },
-        { "value": "de", "description": "German" },
-        { "value": "el", "description": "Greek" },
-        { "value": "en-GB", "description": "English, UK" },
-        { "value": "en-US", "description": "English, US; English, Canada" },
-        { "value": "eo", "description": "Esperanto" },
-        { "value": "es", "description": "Spanish" },
-        { "value": "et", "description": "Estonian" },
-        { "value": "fi", "description": "Finnish" },
-        { "value": "fr", "description": "French" },
-        { "value": "ga", "description": "Irish" },
-        { "value": "hu", "description": "Hungarian" },
-        { "value": "it", "description": "Italian" },
-        { "value": "lv", "description": "Latvian" },
-        { "value": "nl", "description": "Dutch" },
-        { "value": "no", "description": "Norwegian" },
-        { "value": "pl", "description": "Polish" },
-        { "value": "ro", "description": "Romanian" },
-        { "value": "ru", "description": "Russian" },
-        { "value": "sk", "description": "Slovak" },
-        { "value": "sl", "description": "Slovenian" },
-        { "value": "sr", "description": "Serbian" },
-        { "value": "sv", "description": "Swedish" },
-        { "value": "tr", "description": "Turkish" },
-        { "value": "uk", "description": "Ukrainian" }
+        {
+          "value": "be",
+          "description": "Belarusian"
+        },
+        {
+          "value": "bg",
+          "description": "Bulgarian"
+        },
+        {
+          "value": "ca",
+          "description": "Catalan"
+        },
+        {
+          "value": "cs",
+          "description": "Czech"
+        },
+        {
+          "value": "da",
+          "description": "Danish"
+        },
+        {
+          "value": "de",
+          "description": "German"
+        },
+        {
+          "value": "el",
+          "description": "Greek"
+        },
+        {
+          "value": "en-GB",
+          "description": "English, UK"
+        },
+        {
+          "value": "en-US",
+          "description": "English, US; English, Canada"
+        },
+        {
+          "value": "eo",
+          "description": "Esperanto"
+        },
+        {
+          "value": "es",
+          "description": "Spanish"
+        },
+        {
+          "value": "et",
+          "description": "Estonian"
+        },
+        {
+          "value": "fi",
+          "description": "Finnish"
+        },
+        {
+          "value": "fr",
+          "description": "French"
+        },
+        {
+          "value": "ga",
+          "description": "Irish"
+        },
+        {
+          "value": "hu",
+          "description": "Hungarian"
+        },
+        {
+          "value": "it",
+          "description": "Italian"
+        },
+        {
+          "value": "lv",
+          "description": "Latvian"
+        },
+        {
+          "value": "nl",
+          "description": "Dutch"
+        },
+        {
+          "value": "no",
+          "description": "Norwegian"
+        },
+        {
+          "value": "pl",
+          "description": "Polish"
+        },
+        {
+          "value": "ro",
+          "description": "Romanian"
+        },
+        {
+          "value": "ru",
+          "description": "Russian"
+        },
+        {
+          "value": "sk",
+          "description": "Slovak"
+        },
+        {
+          "value": "sl",
+          "description": "Slovenian"
+        },
+        {
+          "value": "sr",
+          "description": "Serbian"
+        },
+        {
+          "value": "sv",
+          "description": "Swedish"
+        },
+        {
+          "value": "tr",
+          "description": "Turkish"
+        },
+        {
+          "value": "uk",
+          "description": "Ukrainian"
+        }
       ]
     },
     "type": {
@@ -63,9 +153,18 @@
       "description": "Type of HTML entities",
       "order": 20,
       "enum": [
-        { "value": "UTF-8", "description": "UTF-8, “A”" },
-        { "value": "name", "description": "As names, &ldquo;A&rdquo;" },
-        { "value": "digit", "description": "As digits, &#8220;A&#8221;" }
+        {
+          "value": "UTF-8",
+          "description": "UTF-8, “A”"
+        },
+        {
+          "value": "name",
+          "description": "As names, &ldquo;A&rdquo;"
+        },
+        {
+          "value": "digit",
+          "description": "As digits, &#8220;A&#8221;"
+        }
       ]
     },
     "onlyInvisible": {
@@ -91,6 +190,6 @@
     "atom": ">=1.16.0 <2.0.0"
   },
   "dependencies": {
-      "typograf": "^6.4.0"
+    "typograf": "^6.4.0"
   }
 }
